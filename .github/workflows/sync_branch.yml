@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: repo-sync/github-sync@v2
         with:
-          source_repo: "ecmwf/WeatherGenerator"
+          source_repo: "https://github.com/ecmwf/WeatherGenerator"
           source_branch: "tjh/dev/dashboard"
           destination_branch: "tjh/dev/dashboard"
           github_token: ${{ secrets.GITHUB_TOKEN }}
